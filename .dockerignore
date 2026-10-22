@@ -1,0 +1,15 @@
+# .dockerignore 文件内容
+**/target/
+**/node_modules/
+
+# 忽略 Git 和 IDE 配置
+.git
+.idea
+*.iml
+.mvn/
+mvnw*
+
+# 忽略日志和临时文件
+logs/
+*.log
+tmp/

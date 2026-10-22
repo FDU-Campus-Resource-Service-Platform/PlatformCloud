@@ -1,0 +1,15 @@
+server:
+  port: ${CLASSROOM_SERVER_PORT:18082}
+
+spring:
+  application:
+    name: platform-classroom-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: never

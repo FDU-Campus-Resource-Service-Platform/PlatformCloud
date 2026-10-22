@@ -1,0 +1,44 @@
+# Maven 构建产物
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# 工具下载产物 / 运行期资源 / 日志
+opentelemetry-javaagent.jar
+logs/
+
+# 灰度发布 / 本地开发开关
+dev.properties
+
+# 本地测试（AGENTS.md 与 docs/ 保持可提交）
+.local-tests/
+
+# 环境变量 / 凭证
+.env
+!.env.example
+
+# IntelliJ IDEA
+# 允许 .idea/runConfigurations/ 共享，其余 .idea/ 内容仍忽略
+.idea/*
+!.idea/runConfigurations/
+!.idea/runConfigurations/**
+*.iml
+*.iws
+*.ipr
+
+# Eclipse / VS Code
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.springBeans
+.sts4-cache/
+.vscode/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+
+# 本地构建缓存
+.local/

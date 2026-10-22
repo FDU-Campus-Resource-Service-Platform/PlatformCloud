@@ -1,0 +1,15 @@
+server:
+  port: ${MAINTENANCE_SERVER_PORT:18083}
+
+spring:
+  application:
+    name: platform-maintenance-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: never
