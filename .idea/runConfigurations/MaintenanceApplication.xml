@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="MaintenanceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="platform-maintenance-biz" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.oriole.platform.maintenance.MaintenanceApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

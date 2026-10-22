@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ClassroomApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="platform-classroom-biz" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.oriole.platform.classroom.ClassroomApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,15 @@
+server:
+  port: ${SEAT_SERVER_PORT:18081}
+
+spring:
+  application:
+    name: platform-seat-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: never
